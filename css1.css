@@ -1,0 +1,72 @@
+.description ,.about-para, .dev-email {
+    max-width: 100%;
+    color: #172b4d;
+    font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  }
+  .navbar-brand ,.contact-para ,.nav-link ,.language-cards, .titles{
+    color: #172b4d;
+  }
+  .job {
+    color:  #36B37F;
+  }
+  .intro, .about, .contact-section {
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
+  .intro {
+    background-image: url(./tools/header-illsutration-mobile.svg);
+    background-size: 100% auto;
+    height: 100vh;
+  }
+  .about {
+   justify-content: center;
+   background-image: url(./tools/illustration\ 1-\ about\ me-mobile.png),url(./tools/illustration\ 2-about\ me\ mobile.svg);
+   background-size: 11.6% auto, 11.6% auto;
+   background-position: top 2rem right 0 , bottom 7rem left -1.2rem;
+ }
+ .contact-section {
+  background-image: url(./tools/illustration-contact-form.jpg);
+  background-size: 12% auto;
+  background-position: bottom 2rem right 0rem;
+}
+@media all and (min-width: 768px) {
+.intro {
+    background-image: url(./tools/Header-llustration-desktop.svg);
+  }
+  .about {
+    justify-content: center;
+    background-image: url(./tools/desktop-assets/illustration-about\ me-1-desktop.svg),url(./tools/desktop-assets/illustration-about-me-2-desktop.svg);
+  }
+  .icons-footer{
+    padding-top: 8rem;
+  }
+  .contact-section {
+    padding-bottom: 7rem;
+    background-image: url(./tools/desktop-assets/illustration-1-contact-form-desktop.svg), url(./tools/desktop-assets/illustration-2-contact-form-desktop.svg), url(./tools/desktop-assets/contact\ form-illustratoin-3-desktop.svg);
+    background-size: 8% auto, 11% auto, 10% auto;
+    background-position: bottom left, bottom 0 left 17rem, bottom 0 right;
+  }
+  .description  {
+    padding: 1.5rem 10.7rem 1.5rem 10.7rem;
+  }
+  .about-para {
+    padding: 1.5rem 5rem ;
+    
+  }
+  .navbar-collapse{
+    padding-bottom: 7rem;
+  }
+  .about-me {
+    padding-top: 7rem;
+  }
+  .socials-footer {
+    padding: 1rem 0 0 0;
+    width: 100%;
+    border-top: #dfe1e6 1px solid;
+  }
+  .indicator {
+    display: none;
+  }
+}
